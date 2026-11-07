@@ -2,7 +2,8 @@
 manufacturer: Arista
 model: PWR-511-AC-BLUE
 part_number: PWR-511-AC-BLUE
-# airflow: rear-to-front
+airflow: rear-to-front
+comments: '[Arista 7020R4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7020R4-Datasheet.pdf)'
 power-ports:
   - name: '{module}'
     type: iec-60320-c14

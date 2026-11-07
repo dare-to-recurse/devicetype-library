@@ -2,7 +2,8 @@
 manufacturer: Arista
 model: PWR-511-DC-RED
 part_number: PWR-511-DC-RED
-# airflow: front-to-rear
+airflow: front-to-rear
+comments: '[Arista 7020R4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7020R4-Datasheet.pdf)'
 power-ports:
   - name: '{module}'
     type: dc-terminal
