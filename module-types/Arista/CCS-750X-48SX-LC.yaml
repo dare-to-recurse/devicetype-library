@@ -3,6 +3,9 @@ manufacturer: Arista
 model: CCS-750X-48SX-LC
 part_number: CCS-750X-48SX-LC
 comments: '[Arista 750X Series Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-750-Series-Datasheet.pdf)'
+weight: 3.4
+weight_unit: kg
+airflow: front-to-rear
 interfaces:
   - name: Ethernet{module}/1
     type: 10gbase-x-sfpp
