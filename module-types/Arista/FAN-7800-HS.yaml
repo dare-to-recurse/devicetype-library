@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7800-HS
+part_number: FAN-7800-HS
+airflow: front-to-rear
+comments: '[Arista 7800R4 Universal Spine Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7800R4-Series-Data-Center-Switch-Router.pdf)'
+profile: Fan
