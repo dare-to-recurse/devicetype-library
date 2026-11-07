@@ -4,21 +4,30 @@ model: DCS-7280CR3MK-32D4A-S-R
 slug: arista-dcs-7280cr3mk-32d4a-s-r
 part_number: DCS-7280CR3MK-32D4A-S-R
 u_height: 1
-weight: 27
-weight_unit: lb
+weight: 12.27
+weight_unit: kg
 airflow: rear-to-front
 is_full_depth: true
-comments: '[Arista 7280R3 MACSec Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R3-MACSec-Datasheet.pdf)'
+comments: |
+  [Arista 7280R3-MACSec Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R3-MACSec-Datasheet.pdf)
+
+  Large routing tables. TunnelSec encryption on the 32 QSFP100 ports. Secure boot enabled.
+front_image: false
+rear_image: false
 console-ports:
   - name: Console
     type: rj-45
 module-bays:
-  - name: PSU 0
-    position: '0'
-  - name: PSU 1
+  - name: Power Supply 1
     position: '1'
-front_image: false
-rear_image: false
+  - name: Power Supply 2
+    position: '2'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
 interfaces:
   - name: Ethernet1/1
     type: 100gbase-x-qsfp28
