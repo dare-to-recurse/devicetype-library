@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7000-F
+part_number: FAN-7000-F
+airflow: front-to-rear
+comments: '[Arista 7060X and 7260X Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X_7260X_DS.pdf)'
+profile: Fan
