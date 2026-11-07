@@ -1,0 +1,8 @@
+---
+manufacturer: Arista
+model: DCS-7001-SUP-A
+part_number: DCS-7001-SUP-A
+comments: |
+  [Arista 7060X6 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X6-Datasheet.pdf)
+
+  Field-replaceable supervisor for the 2U 7060X6 switches with a 4-core/8-thread 2.7 GHz CPU, 32 GB RAM and 240 GB NVMe storage. Accessible behind the two rightmost fan modules.
