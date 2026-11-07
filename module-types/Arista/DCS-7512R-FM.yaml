@@ -1,6 +1,11 @@
 ---
 manufacturer: Arista
 model: DCS-7512R-FM
-weight: 25
-weight_unit: lb
-comments: Fabric module for DCS-7512N chassis
+weight: 11.4
+weight_unit: kg
+comments: |
+  [Arista 7500R Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7500RDataSheet.pdf)
+
+  Fabric module with integrated fans.
+part_number: DCS-7512R-FM
+airflow: front-to-rear
