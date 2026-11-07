@@ -3,6 +3,11 @@ manufacturer: Arista
 model: DCS-7500R-36Q
 weight: 12.5
 weight_unit: lb
+part_number: DCS-7500R-36Q-LC
+comments: |
+  [Arista 7500R Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7500RDataSheet.pdf)
+
+  The default layout has 36 ports at 40G. Alternate configurations support up to six 100G or 24 25G interfaces.
 interfaces:
   - name: Ethernet{module}/1/1
     type: 40gbase-x-qsfpp
