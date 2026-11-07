@@ -1,0 +1,9 @@
+---
+manufacturer: Arista
+model: FAN-7010X
+part_number: FAN-7010X
+comments: |
+  [Arista 7010X Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7010TX-Datasheet.pdf)
+
+  Reversible hot-swappable dual inline fan module. Reinsert the module in the opposite orientation to change airflow direction.
+profile: Fan
