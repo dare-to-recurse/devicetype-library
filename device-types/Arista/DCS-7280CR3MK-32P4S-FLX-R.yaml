@@ -1,0 +1,104 @@
+---
+manufacturer: Arista
+model: DCS-7280CR3MK-32P4S-FLX-R
+slug: arista-dcs-7280cr3mk-32p4s-flx-r
+part_number: DCS-7280CR3MK-32P4S-FLX-R
+u_height: 1
+is_full_depth: true
+airflow: rear-to-front
+weight: 12.27
+weight_unit: kg
+comments: |
+  [Arista 7280R3-MACSec Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R3-MACSec-Datasheet.pdf)
+
+  Large routing tables. TunnelSec encryption on the 32 QSFP100 ports. FLX bundle includes routing, MPLS and VXLAN software licensing.
+interfaces:
+  - name: Ethernet1/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet2/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet3/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet4/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet5/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet6/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet7/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet8/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet9/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet10/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet11/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet12/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet13/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet14/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet15/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet16/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet17/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet18/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet19/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet20/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet21/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet22/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet23/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet24/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet25/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet26/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet27/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet28/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet29/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet30/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet31/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet32/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet33/1
+    type: 400gbase-x-osfp
+  - name: Ethernet34/1
+    type: 400gbase-x-osfp
+  - name: Ethernet35/1
+    type: 400gbase-x-osfp
+  - name: Ethernet36/1
+    type: 400gbase-x-osfp
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
