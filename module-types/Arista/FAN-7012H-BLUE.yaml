@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7012H-BLUE
+part_number: FAN-7012H-BLUE
+airflow: rear-to-front
+comments: '[Arista 7050X4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7050X4-Datasheet.pdf)'
+profile: Fan
