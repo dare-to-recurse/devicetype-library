@@ -1,0 +1,13 @@
+---
+manufacturer: Arista
+model: PWR-2411-MC-RED
+part_number: PWR-2411-MC-RED
+airflow: front-to-rear
+comments: |
+  [Arista 7060X6 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X6-Datasheet.pdf)
+
+  48-60 VDC input through a 6-pin M-CRPS modular connector.
+power-ports:
+  - name: '{module}'
+    type: other
+    maximum_draw: 2400

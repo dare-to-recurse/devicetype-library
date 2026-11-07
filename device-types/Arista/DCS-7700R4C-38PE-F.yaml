@@ -6,98 +6,151 @@ part_number: DCS-7700R4C-38PE-F
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
-weight: 20
+weight: 21.4
 weight_unit: kg
-comments: >
-  The Arista DCS-7700R4C-38PE-F is a 2RU distributed leaf switch in the 7700R4 Series, offering 18 x 800GbE host ports and 20 x 800GbE fabric ports.
-  It provides 14.4 Tbps of wire-speed performance with 16GB of buffers, optimized for AI/ML workloads.
-  [Arista 7700R4 Series Overview](https://www.arista.com/en/products/7700r4-series)
+comments: |
+  [Arista 7700R4-Distributed-Etherlink-Switch Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7700R4-Distributed-Etherlink-Switch-Datasheet.pdf)
+
+  [Arista 7700R4 Installation Guide](https://www.arista.com/en/qsg-7700r4-series/7700r4-series-front-panel)
+
+  Distributed leaf: ports 1-10 and 29-38 are fabric ports, and ports 11-28 are host ports. Port 39 is an auxiliary 100G QSFP port. The supervisor is accessed from the rear behind fan modules 3 and 4.
 module-bays:
-  - name: PSU1
+  - name: Power Supply 1
     position: '1'
-  - name: PSU2
+  - name: Power Supply 2
     position: '2'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'
+  - name: Supervisor
+    position: '1'
 console-ports:
   - name: Console
     type: rj-45
+  - name: USB
+    type: usb-a
 interfaces:
+  - name: Ethernet1/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet2/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet3/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet4/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet5/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet6/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet7/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet8/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet9/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet10/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet11/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet12/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet13/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet14/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet15/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet16/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet17/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet18/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet19/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet20/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet21/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet22/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet23/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet24/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet25/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet26/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet27/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet28/1
+    type: 800gbase-x-osfp
+    label: Host
+  - name: Ethernet29/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet30/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet31/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet32/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet33/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet34/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet35/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet36/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet37/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet38/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet39/1
+    type: 100gbase-x-qsfp28
   - name: Management1
     type: 1000base-t
-  - name: Management2
-    type: 1000base-t
-  - name: Host1
-    type: 800gbase-x-osfp
-  - name: Host2
-    type: 800gbase-x-osfp
-  - name: Host3
-    type: 800gbase-x-osfp
-  - name: Host4
-    type: 800gbase-x-osfp
-  - name: Host5
-    type: 800gbase-x-osfp
-  - name: Host6
-    type: 800gbase-x-osfp
-  - name: Host7
-    type: 800gbase-x-osfp
-  - name: Host8
-    type: 800gbase-x-osfp
-  - name: Host9
-    type: 800gbase-x-osfp
-  - name: Host10
-    type: 800gbase-x-osfp
-  - name: Host11
-    type: 800gbase-x-osfp
-  - name: Host12
-    type: 800gbase-x-osfp
-  - name: Host13
-    type: 800gbase-x-osfp
-  - name: Host14
-    type: 800gbase-x-osfp
-  - name: Host15
-    type: 800gbase-x-osfp
-  - name: Host16
-    type: 800gbase-x-osfp
-  - name: Host17
-    type: 800gbase-x-osfp
-  - name: Host18
-    type: 800gbase-x-osfp
-  - name: Fabric1
-    type: 800gbase-x-osfp
-  - name: Fabric2
-    type: 800gbase-x-osfp
-  - name: Fabric3
-    type: 800gbase-x-osfp
-  - name: Fabric4
-    type: 800gbase-x-osfp
-  - name: Fabric5
-    type: 800gbase-x-osfp
-  - name: Fabric6
-    type: 800gbase-x-osfp
-  - name: Fabric7
-    type: 800gbase-x-osfp
-  - name: Fabric8
-    type: 800gbase-x-osfp
-  - name: Fabric9
-    type: 800gbase-x-osfp
-  - name: Fabric10
-    type: 800gbase-x-osfp
-  - name: Fabric11
-    type: 800gbase-x-osfp
-  - name: Fabric12
-    type: 800gbase-x-osfp
-  - name: Fabric13
-    type: 800gbase-x-osfp
-  - name: Fabric14
-    type: 800gbase-x-osfp
-  - name: Fabric15
-    type: 800gbase-x-osfp
-  - name: Fabric16
-    type: 800gbase-x-osfp
-  - name: Fabric17
-    type: 800gbase-x-osfp
-  - name: Fabric18
-    type: 800gbase-x-osfp
-  - name: Fabric19
-    type: 800gbase-x-osfp
-  - name: Fabric20
-    type: 800gbase-x-osfp
+    mgmt_only: true

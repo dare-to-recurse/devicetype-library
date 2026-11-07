@@ -1,0 +1,11 @@
+---
+manufacturer: Arista
+model: DCS-7003-SUP-EL
+part_number: DCS-7003-SUP-EL
+airflow: front-to-rear
+comments: |
+  [Arista 7700R4-Distributed-Etherlink-Switch Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7700R4-Distributed-Etherlink-Switch-Datasheet.pdf)
+
+  Field-replaceable supervisor with an eight-core CPU, 64 GB RAM and 512 GB NVMe storage. Secure boot enabled. Front-panel management and console connections remain on the chassis.
+weight: 1.36
+weight_unit: kg

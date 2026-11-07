@@ -1,0 +1,31 @@
+---
+manufacturer: Arista
+model: DCS-7388X5-SC
+part_number: DCS-7388X5-SC
+airflow: front-to-rear
+comments: |
+  [Arista 7388X5 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7388X5-Datasheet.pdf)
+
+  Removable switch-card assembly with five fan bays and four power-supply bays.
+  Ordering bundle includes fans and power supplies.
+weight: 25.4
+weight_unit: kg
+module-bays:
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Power Supply 3
+    position: '3'
+  - name: Power Supply 4
+    position: '4'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'
+  - name: Fan 5
+    position: '5'

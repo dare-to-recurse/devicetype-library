@@ -3,10 +3,18 @@ manufacturer: Arista
 model: DCS-7516-SUP2
 weight: 12
 weight_unit: lb
-comments: Supervisor module for 7516N chassis
+comments: |
+  [Arista 7500R Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7500RDataSheet.pdf)
+
+  64 GB RAM.
+part_number: DCS-7516-SUP2
 console-ports:
   - name: Console {module}
     type: rj-45
+  - name: USB{module}/1
+    type: usb-a
+  - name: USB{module}/2
+    type: usb-a
 interfaces:
   - name: Management{module}/1
     type: 1000base-t

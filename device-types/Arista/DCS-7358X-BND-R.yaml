@@ -1,0 +1,50 @@
+---
+manufacturer: Arista
+model: DCS-7358X-BND-R
+slug: arista-dcs-7358x-bnd-r
+part_number: DCS-7358X-BND-R
+u_height: 4
+is_full_depth: true
+airflow: rear-to-front
+comments: |
+  [Arista 7358X4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7358X4-Datasheet.pdf)
+
+  Factory bundle of DCS-7368-CH, DCS-7368-SUP, DCS-7358X4-SC-R, five FAN-7002H-R fan modules and two PWR-1900AC-R power supplies.
+  All replaceable components are represented by module bays and their separate module types.
+module-bays:
+  - name: Supervisor
+    position: '1'
+  - name: Slot 2
+    position: '2'
+    label: Line Card
+  - name: Slot 3
+    position: '3'
+    label: Line Card
+  - name: Slot 4
+    position: '4'
+    label: Line Card
+  - name: Slot 5
+    position: '5'
+    label: Line Card
+  - name: Slot 6
+    position: '6'
+    label: Line Card
+  - name: Slot 7
+    position: '7'
+    label: Line Card
+  - name: Slot 8
+    position: '8'
+    label: Line Card
+  - name: Slot 9
+    position: '9'
+    label: Line Card
+  - name: Switch Card
+    position: SC1
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Power Supply 3
+    position: '3'
+  - name: Power Supply 4
+    position: '4'

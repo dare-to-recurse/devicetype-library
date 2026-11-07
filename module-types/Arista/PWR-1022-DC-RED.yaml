@@ -1,0 +1,11 @@
+---
+manufacturer: Arista
+model: PWR-1022-DC-RED
+part_number: PWR-1022-DC-RED
+airflow: front-to-rear
+comments: '[Arista CCS-720XPM Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-720XPM-Datasheet.pdf)'
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 1050
+    description: 48-60V DC input.

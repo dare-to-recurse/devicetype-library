@@ -1,0 +1,12 @@
+---
+manufacturer: Arista
+model: PWR-461-AC-H
+part_number: PWR-461-AC-H
+airflow: passive
+comments: '[Arista CCS-710HXP Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-710HXP-Datasheet.pdf)'
+profile: Power supply
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 400
+    description: 100-240V AC or 100-250V DC input; 400W output.

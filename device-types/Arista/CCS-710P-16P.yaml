@@ -8,16 +8,19 @@ weight: 5
 weight_unit: lb
 is_full_depth: false
 comments: '[Arista CCS-710P Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-710P-Datasheet.pdf)'
+front_image: true
+rear_image: true
+airflow: passive
 console-ports:
   - name: Console
     type: rj-45
+  - name: USB
+    type: usb-a
 power-ports:
   - name: PS1
-    type: dc-terminal
+    type: other
     maximum_draw: 280
-    allocated_draw: 229
-front_image: true
-rear_image: true
+    description: 54V DC input from external PWR-150-ADP or PWR-280-ADP; six-pin connector.
 interfaces:
   - name: Ethernet1
     type: 1000base-t
@@ -81,8 +84,6 @@ interfaces:
     poe_type: type4-ieee802.3bt
   - name: Ethernet16
     type: 5gbase-t
-    poe_mode: pd
-    poe_type: type4-ieee802.3bt
   - name: Ethernet17
     type: 10gbase-x-sfpp
   - name: Ethernet18

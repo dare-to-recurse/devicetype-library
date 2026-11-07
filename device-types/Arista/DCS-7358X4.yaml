@@ -8,60 +8,46 @@ is_full_depth: true
 airflow: front-to-rear
 weight: 39
 weight_unit: kg
-comments: >
-  The Arista DCS-7358X4 is a 4RU modular leaf/spine switch delivering up to 12.8 Tbps
-  of system throughput.
-  It supports up to 128 x 100G or 32 x 400G ports via 8 I/O slots and is ideal for
-  high-density data center designs.
-  [Arista 7358X4 Series Overview](https://www.arista.com/en/products/7358x4-series)
-console-ports:
-  - name: Console
-    type: rj-45
+comments: |
+  [Arista 7358X4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7358X4-Datasheet.pdf)
 
+  The supervisor provides all management and console connections. Fan bays are on the replaceable switch-card module.
 front_image: true
 rear_image: false
-interfaces:
-  - name: Management1
-    type: 1000base-t
-  - name: Management2
-    type: 1000base-t
-
 module-bays:
-  - name: Linecard Slot 1
+  - name: Supervisor
     position: '1'
-  - name: Linecard Slot 2
+  - name: Slot 2
     position: '2'
-  - name: Linecard Slot 3
+    label: Line Card
+  - name: Slot 3
     position: '3'
-  - name: Linecard Slot 4
+    label: Line Card
+  - name: Slot 4
     position: '4'
-  - name: Linecard Slot 5
+    label: Line Card
+  - name: Slot 5
     position: '5'
-  - name: Linecard Slot 6
+    label: Line Card
+  - name: Slot 6
     position: '6'
-  - name: Linecard Slot 7
+    label: Line Card
+  - name: Slot 7
     position: '7'
-  - name: Linecard Slot 8
+    label: Line Card
+  - name: Slot 8
     position: '8'
-  - name: Supervisor Slot
+    label: Line Card
+  - name: Slot 9
     position: '9'
-  - name: Switch Card Slot
-    position: '10'
-  - name: Fan Module Slot 1
-    position: '11'
-  - name: Fan Module Slot 2
-    position: '12'
-  - name: Fan Module Slot 3
-    position: '13'
-  - name: Fan Module Slot 4
-    position: '14'
-  - name: Fan Module Slot 5
-    position: '15'
-  - name: PSU Slot 1
-    position: '16'
-  - name: PSU Slot 2
-    position: '17'
-  - name: PSU Slot 3
-    position: '18'
-  - name: PSU Slot 4
-    position: '19'
+    label: Line Card
+  - name: Switch Card
+    position: SC1
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Power Supply 3
+    position: '3'
+  - name: Power Supply 4
+    position: '4'

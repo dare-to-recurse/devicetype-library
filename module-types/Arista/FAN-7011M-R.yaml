@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7011M-R
+part_number: FAN-7011M-R
+airflow: rear-to-front
+comments: '[Arista 7020R4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7020R4-Datasheet.pdf)'
+profile: Fan

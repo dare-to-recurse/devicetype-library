@@ -1,0 +1,10 @@
+---
+manufacturer: Arista
+model: PWR-3001-DC-RED
+part_number: PWR-3001-DC-RED
+airflow: front-to-rear
+comments: '[Arista 7280R3A Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R3A-Datasheet.pdf)'
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 3000

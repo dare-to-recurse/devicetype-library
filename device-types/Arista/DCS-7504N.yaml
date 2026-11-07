@@ -4,48 +4,46 @@ model: DCS-7504N
 slug: arista-dcs-7504n
 part_number: DCS-7504N
 u_height: 7
-weight: 76.5
-weight_unit: lb
+weight: 34.7
+weight_unit: kg
 is_full_depth: true
 airflow: front-to-rear
 front_image: true
 rear_image: true
+comments: |
+  [Arista 7500R3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7500R3-Data-Sheet.pdf)
+
+  Bare-chassis weight excludes replaceable modules. Six fabric modules provide integrated cooling.
 module-bays:
-  - name: Slot 1
-    label: Supervisor
+  - name: Supervisor 1
     position: '1'
-  - name: Slot 2
-    label: Supervisor
+  - name: Supervisor 2
     position: '2'
-  - name: Slot 3
-    label: Line Card
+  - name: Line Card 3
     position: '3'
-  - name: Slot 4
-    label: Line Card
+  - name: Line Card 4
     position: '4'
-  - name: Slot 5
-    label: Line Card
+  - name: Line Card 5
     position: '5'
-  - name: Slot 6
-    label: Line Card
+  - name: Line Card 6
     position: '6'
-  - name: Fabric Module Slot 1
+  - name: Fabric 1
     position: F1
-  - name: Fabric Module Slot 2
+  - name: Fabric 2
     position: F2
-  - name: Fabric Module Slot 3
+  - name: Fabric 3
     position: F3
-  - name: Fabric Module Slot 4
+  - name: Fabric 4
     position: F4
-  - name: Fabric Module Slot 5
+  - name: Fabric 5
     position: F5
-  - name: Fabric Module Slot 6
+  - name: Fabric 6
     position: F6
-  - name: PSU Slot 1
-    position: PSU-1
-  - name: PSU Slot 2
-    position: PSU-2
-  - name: PSU Slot 3
-    position: PSU-3
-  - name: PSU Slot 4
-    position: PSU-4
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Power Supply 3
+    position: '3'
+  - name: Power Supply 4
+    position: '4'

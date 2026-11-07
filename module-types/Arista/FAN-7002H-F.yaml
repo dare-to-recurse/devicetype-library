@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7002H-F
+part_number: FAN-7002H-F
+airflow: front-to-rear
+comments: '[Arista 7368X4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7368X4-Datasheet.pdf)'
+profile: Fan

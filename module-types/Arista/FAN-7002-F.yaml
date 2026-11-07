@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7002-F
+part_number: FAN-7002-F
+airflow: front-to-rear
+comments: '[Arista 7300X3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7300X3-Datasheet.pdf)'
+profile: Fan

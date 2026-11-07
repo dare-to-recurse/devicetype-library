@@ -1,0 +1,42 @@
+---
+manufacturer: Arista
+model: DCS-7388X5-BND-F
+slug: arista-dcs-7388x5-bnd-f
+part_number: DCS-7388X5-BND-F
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+comments: |
+  [Arista 7388X5 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7388X5-Datasheet.pdf)
+
+  Chassis bundle with DCS-7388-SUP, DCS-7388X5-SC, fans and two AC power supplies.
+  All replaceable components are represented by module bays and their separate module types.
+module-bays:
+  - name: Supervisor
+    position: '1'
+  - name: Slot 2
+    position: '2'
+    label: Line Card
+  - name: Slot 3
+    position: '3'
+    label: Line Card
+  - name: Slot 4
+    position: '4'
+    label: Line Card
+  - name: Slot 5
+    position: '5'
+    label: Line Card
+  - name: Slot 6
+    position: '6'
+    label: Line Card
+  - name: Slot 7
+    position: '7'
+    label: Line Card
+  - name: Slot 8
+    position: '8'
+    label: Line Card
+  - name: Slot 9
+    position: '9'
+    label: Line Card
+  - name: Switch Card
+    position: SC1

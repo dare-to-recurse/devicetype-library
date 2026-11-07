@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7130-1U-F
+part_number: FAN-7130-1U-F
+airflow: front-to-rear
+comments: '[Arista 7130LS Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7130LS-Series-Data-Sheet.pdf)'
+profile: Fan

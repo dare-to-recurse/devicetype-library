@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7021H-RED
+part_number: FAN-7021H-RED
+airflow: front-to-rear
+comments: '[Arista 7060X6 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X6-Datasheet.pdf)'
+profile: Fan

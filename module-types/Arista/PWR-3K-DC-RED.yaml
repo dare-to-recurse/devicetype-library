@@ -1,0 +1,12 @@
+---
+manufacturer: Arista
+model: PWR-3K-DC-RED
+part_number: PWR-3K-DC-RED
+comments: '[Arista 7500R3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7500R3-Data-Sheet.pdf)'
+airflow: front-to-rear
+weight: 2.49
+weight_unit: kg
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 3000

@@ -1,0 +1,15 @@
+---
+manufacturer: Arista
+model: CCS-755-X3-SC
+part_number: CCS-755-X3-SC
+airflow: front-to-rear
+comments: '[Arista 750X Series Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-750-Series-Datasheet.pdf)'
+weight: 4.2
+weight_unit: kg
+module-bays:
+  - name: Fan {module}/1
+    position: '1'
+  - name: Fan {module}/2
+    position: '2'
+  - name: Fan {module}/3
+    position: '3'

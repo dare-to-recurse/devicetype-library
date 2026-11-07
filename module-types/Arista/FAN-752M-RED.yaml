@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-752M-RED
+part_number: FAN-752M-RED
+airflow: front-to-rear
+comments: '[Arista 750X Series Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-750-Series-Datasheet.pdf)'
+profile: Fan

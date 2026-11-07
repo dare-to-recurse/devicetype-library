@@ -1,0 +1,12 @@
+---
+manufacturer: Arista
+model: PWR-3K-DC-BLUE
+part_number: PWR-3K-DC-BLUE
+airflow: front-to-rear
+comments: '[Arista 7300X3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7300X3-Datasheet.pdf)'
+weight: 2.49
+weight_unit: kg
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 3000

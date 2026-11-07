@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7001S-BLUE
+part_number: FAN-7001S-BLUE
+airflow: rear-to-front
+comments: '[Arista CCS-720XPM Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-720XPM-Datasheet.pdf)'
+profile: Fan

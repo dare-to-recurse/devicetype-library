@@ -1,0 +1,10 @@
+---
+manufacturer: Arista
+model: PWR-3211-DC-RED
+part_number: PWR-3211-DC-RED
+airflow: front-to-rear
+comments: '[Arista 7280R4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R4-Series-Datasheet.pdf)'
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 3200

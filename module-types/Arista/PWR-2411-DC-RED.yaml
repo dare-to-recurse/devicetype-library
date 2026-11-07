@@ -2,7 +2,8 @@
 manufacturer: Arista
 model: PWR-2411-DC-RED
 part_number: PWR-2411-DC-RED
-# airflow: front-to-rear
+airflow: front-to-rear
+comments: '[Arista 7280R4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R4-Series-Datasheet.pdf)'
 power-ports:
   - name: '{module}'
     type: dc-terminal

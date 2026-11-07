@@ -4,11 +4,15 @@ model: CCS-758-CH-F
 slug: arista-ccs-758-ch-f
 part_number: CCS-758-CH
 u_height: 10
-is_full_depth: true
+is_full_depth: false
 airflow: front-to-rear
 weight: 31.6
 weight_unit: kg
-comments: '[Arista 750X Series Datasheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-750-Series-Datasheet.pdf)'
+comments: |
+  [Arista 750X Series Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-750-Series-Datasheet.pdf)
+
+  Weight is for the empty chassis. Fan modules are installed in the two rear switch cards.
+
 
 module-bays:
   - name: Slot 1
@@ -71,3 +75,7 @@ module-bays:
   - name: PSU 10
     label: Power Supply 10
     position: '10'
+  - name: Switch Card 1
+    position: '1'
+  - name: Switch Card 2
+    position: '2'

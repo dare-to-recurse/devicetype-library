@@ -1,0 +1,12 @@
+---
+manufacturer: Arista
+model: PWR-2011-AC-RED
+part_number: PWR-2011-AC-RED
+airflow: front-to-rear
+comments: |
+  [Arista 7060X6 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X6-Datasheet.pdf)
+
+  90-264 VAC input. The datasheet power-supply table lists 1600 W output; the ordering table describes this PSU as 2000 W.
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14

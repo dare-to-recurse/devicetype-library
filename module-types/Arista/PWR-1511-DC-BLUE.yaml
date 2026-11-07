@@ -1,0 +1,10 @@
+---
+manufacturer: Arista
+model: PWR-1511-DC-BLUE
+part_number: PWR-1511-DC-BLUE
+airflow: rear-to-front
+comments: '[Arista 7060X5 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X5-Datasheet.pdf)'
+power-ports:
+  - name: '{module}'
+    type: dc-terminal
+    maximum_draw: 1500

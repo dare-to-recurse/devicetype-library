@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7012H-RED
+part_number: FAN-7012H-RED
+airflow: front-to-rear
+comments: '[Arista 7050X4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7050X4-Datasheet.pdf)'
+profile: Fan

@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7802-H
+part_number: FAN-7802-H
+airflow: front-to-rear
+comments: '[Arista 7800R3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7800R3-Data-Sheet.pdf)'
+profile: Fan

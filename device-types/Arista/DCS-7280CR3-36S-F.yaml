@@ -17,6 +17,10 @@ module-bays:
     position: '0'
   - name: PSU 2
     position: '1'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
 interfaces:
   - name: Management1
     type: 1000base-t

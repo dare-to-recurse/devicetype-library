@@ -1,0 +1,146 @@
+---
+manufacturer: Arista
+model: DCS-7280SR3AM-48YC8-F
+slug: arista-dcs-7280sr3am-48yc8-f
+part_number: DCS-7280SR3AM-48YC8-F
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 11.23
+weight_unit: kg
+comments: |
+  [Arista 7280R3A Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R3A-Datasheet.pdf)
+
+  [Arista 7280R3 Platform Architecture](https://www.arista.com/assets/data/pdf/Whitepapers/7280R3-Platform-Architecture-WP.pdf)
+
+  TunnelSec encryption. Uplink ports 53/54 and 55/56 share resources. Running port 53 or 55 at 200G disables port 54 or 56 respectively; all four can operate at 40G or 100G. Ports 49-52 independently support up to 200G. See the architecture reference for additional speed constraints.
+interfaces:
+  - name: Ethernet1
+    type: 50gbase-x-sfp56
+  - name: Ethernet2
+    type: 50gbase-x-sfp56
+  - name: Ethernet3
+    type: 50gbase-x-sfp56
+  - name: Ethernet4
+    type: 50gbase-x-sfp56
+  - name: Ethernet5
+    type: 50gbase-x-sfp56
+  - name: Ethernet6
+    type: 50gbase-x-sfp56
+  - name: Ethernet7
+    type: 50gbase-x-sfp56
+  - name: Ethernet8
+    type: 50gbase-x-sfp56
+  - name: Ethernet9
+    type: 50gbase-x-sfp56
+  - name: Ethernet10
+    type: 50gbase-x-sfp56
+  - name: Ethernet11
+    type: 50gbase-x-sfp56
+  - name: Ethernet12
+    type: 50gbase-x-sfp56
+  - name: Ethernet13
+    type: 50gbase-x-sfp56
+  - name: Ethernet14
+    type: 50gbase-x-sfp56
+  - name: Ethernet15
+    type: 50gbase-x-sfp56
+  - name: Ethernet16
+    type: 50gbase-x-sfp56
+  - name: Ethernet17
+    type: 50gbase-x-sfp56
+  - name: Ethernet18
+    type: 50gbase-x-sfp56
+  - name: Ethernet19
+    type: 50gbase-x-sfp56
+  - name: Ethernet20
+    type: 50gbase-x-sfp56
+  - name: Ethernet21
+    type: 50gbase-x-sfp56
+  - name: Ethernet22
+    type: 50gbase-x-sfp56
+  - name: Ethernet23
+    type: 50gbase-x-sfp56
+  - name: Ethernet24
+    type: 50gbase-x-sfp56
+  - name: Ethernet25
+    type: 50gbase-x-sfp56
+  - name: Ethernet26
+    type: 50gbase-x-sfp56
+  - name: Ethernet27
+    type: 50gbase-x-sfp56
+  - name: Ethernet28
+    type: 50gbase-x-sfp56
+  - name: Ethernet29
+    type: 50gbase-x-sfp56
+  - name: Ethernet30
+    type: 50gbase-x-sfp56
+  - name: Ethernet31
+    type: 50gbase-x-sfp56
+  - name: Ethernet32
+    type: 50gbase-x-sfp56
+  - name: Ethernet33
+    type: 50gbase-x-sfp56
+  - name: Ethernet34
+    type: 50gbase-x-sfp56
+  - name: Ethernet35
+    type: 50gbase-x-sfp56
+  - name: Ethernet36
+    type: 50gbase-x-sfp56
+  - name: Ethernet37
+    type: 50gbase-x-sfp56
+  - name: Ethernet38
+    type: 50gbase-x-sfp56
+  - name: Ethernet39
+    type: 50gbase-x-sfp56
+  - name: Ethernet40
+    type: 50gbase-x-sfp56
+  - name: Ethernet41
+    type: 50gbase-x-sfp56
+  - name: Ethernet42
+    type: 50gbase-x-sfp56
+  - name: Ethernet43
+    type: 50gbase-x-sfp56
+  - name: Ethernet44
+    type: 50gbase-x-sfp56
+  - name: Ethernet45
+    type: 50gbase-x-sfp56
+  - name: Ethernet46
+    type: 50gbase-x-sfp56
+  - name: Ethernet47
+    type: 50gbase-x-sfp56
+  - name: Ethernet48
+    type: 50gbase-x-sfp56
+  - name: Ethernet49/1
+    type: 200gbase-x-qsfp56
+  - name: Ethernet50/1
+    type: 200gbase-x-qsfp56
+  - name: Ethernet51/1
+    type: 200gbase-x-qsfp56
+  - name: Ethernet52/1
+    type: 200gbase-x-qsfp56
+  - name: Ethernet53/1
+    type: 200gbase-x-qsfp56
+  - name: Ethernet54/1
+    type: 100gbase-x-qsfp28
+  - name: Ethernet55/1
+    type: 200gbase-x-qsfp56
+  - name: Ethernet56/1
+    type: 100gbase-x-qsfp28
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'

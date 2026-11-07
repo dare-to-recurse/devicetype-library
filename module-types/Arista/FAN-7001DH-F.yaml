@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7001DH-F
+part_number: FAN-7001DH-F
+airflow: front-to-rear
+comments: '[Arista 7060X4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X4-Datasheet.pdf)'
+profile: Fan

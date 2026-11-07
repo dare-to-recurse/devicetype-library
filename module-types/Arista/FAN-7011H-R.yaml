@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7011H-R
+part_number: FAN-7011H-R
+airflow: rear-to-front
+comments: '[Arista 7060X5 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X5-Datasheet.pdf)'
+profile: Fan

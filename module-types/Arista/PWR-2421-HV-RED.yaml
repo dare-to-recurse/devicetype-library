@@ -1,0 +1,13 @@
+---
+manufacturer: Arista
+model: PWR-2421-HV-RED
+part_number: PWR-2421-HV-RED
+airflow: front-to-rear
+comments: |
+  [Arista 7060X6 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X6-Datasheet.pdf)
+
+  Supports 200-277 VAC or 240-380 VDC input.
+power-ports:
+  - name: '{module}'
+    type: saf-d-grid
+    maximum_draw: 2400
