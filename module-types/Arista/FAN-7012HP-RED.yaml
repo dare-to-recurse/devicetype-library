@@ -1,0 +1,10 @@
+---
+manufacturer: Arista
+model: FAN-7012HP-RED
+part_number: FAN-7012HP-RED
+airflow: front-to-rear
+comments: |
+  [Arista 7388X5 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7388X5-Datasheet.pdf)
+
+  High-speed fan module.
+profile: Fan
