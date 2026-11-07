@@ -3,6 +3,8 @@ manufacturer: Arista
 model: PWR-1100AC-F
 part_number: PWR-1100AC-F
 # airflow: front-to-rear
+airflow: front-to-rear
+comments: '[Arista 7060X and 7260X Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060X_7260X_DS.pdf)'
 power-ports:
   - name: '{module}'
     type: iec-60320-c14
