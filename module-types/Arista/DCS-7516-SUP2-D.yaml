@@ -1,0 +1,24 @@
+---
+manufacturer: Arista
+model: DCS-7516-SUP2-D
+weight: 12
+weight_unit: lb
+comments: |
+  [Arista 7500R Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7500RDataSheet.pdf)
+
+  64 GB RAM. Includes 120 GB SSD.
+part_number: DCS-7516-SUP2-D
+console-ports:
+  - name: Console {module}
+    type: rj-45
+  - name: USB{module}/1
+    type: usb-a
+  - name: USB{module}/2
+    type: usb-a
+interfaces:
+  - name: Management{module}/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Management{module}/2
+    type: 1000base-t
+    mgmt_only: true
