@@ -1,0 +1,42 @@
+---
+manufacturer: Arista
+model: DCS-7816L-FCM
+part_number: DCS-7816L-FCM
+airflow: front-to-rear
+comments: |
+  [Arista 7800R4 Universal Spine Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7800R4-Series-Data-Center-Switch-Router.pdf)
+
+  Fabric cooling module for slot 6 of DCS-7816L-CH. Contains 16 independently replaceable FAN-7800-HS fans. Weight omitted because the datasheets list conflicting values of 47.6 lb and 32.8 kg.
+module-bays:
+  - name: Fan {module}/1
+    position: '1'
+  - name: Fan {module}/2
+    position: '2'
+  - name: Fan {module}/3
+    position: '3'
+  - name: Fan {module}/4
+    position: '4'
+  - name: Fan {module}/5
+    position: '5'
+  - name: Fan {module}/6
+    position: '6'
+  - name: Fan {module}/7
+    position: '7'
+  - name: Fan {module}/8
+    position: '8'
+  - name: Fan {module}/9
+    position: '9'
+  - name: Fan {module}/10
+    position: '10'
+  - name: Fan {module}/11
+    position: '11'
+  - name: Fan {module}/12
+    position: '12'
+  - name: Fan {module}/13
+    position: '13'
+  - name: Fan {module}/14
+    position: '14'
+  - name: Fan {module}/15
+    position: '15'
+  - name: Fan {module}/16
+    position: '16'
