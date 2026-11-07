@@ -1,0 +1,10 @@
+---
+manufacturer: Arista
+model: FAN-7310H-RED
+part_number: FAN-7310H-RED
+airflow: front-to-rear
+comments: |
+  [Arista 7060XE7 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060XE7-Datasheet.pdf)
+
+  Field-replaceable dual-rotor high-speed fan module for the air-cooled 7060XE7 platforms.
+profile: Fan
