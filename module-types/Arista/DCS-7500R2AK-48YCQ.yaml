@@ -3,6 +3,11 @@ manufacturer: Arista
 model: DCS-7500R2AK-48YCQ
 weight: 11.5
 weight_unit: lb
+part_number: DCS-7500R2AK-48YCQ-LC
+comments: |
+  [Arista 7500R Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7500RDataSheet.pdf)
+
+  The 48 SFP ports operate at 10G by default; twelve support 25G. The two QSFP100 ports additionally support breakout modes.
 interfaces:
   - name: Ethernet{module}/1
     type: 10gbase-x-sfpp
