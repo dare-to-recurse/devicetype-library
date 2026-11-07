@@ -1,0 +1,16 @@
+---
+manufacturer: Arista
+model: DCS-7304X3-FM-F
+part_number: DCS-7304X3-FM-F
+airflow: front-to-rear
+comments: |
+  [Arista 7300X3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7300X3-Datasheet.pdf)
+
+  Fabric module for DCS-7304-CH with 2 independently replaceable FAN-7002-F fan modules.
+weight: 4.7
+weight_unit: kg
+module-bays:
+  - name: Fan {module}/1
+    position: '1'
+  - name: Fan {module}/2
+    position: '2'
