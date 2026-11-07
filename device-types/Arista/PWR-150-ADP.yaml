@@ -1,0 +1,20 @@
+---
+manufacturer: Arista
+model: PWR-150-ADP
+slug: arista-pwr-150-adp
+part_number: PWR-150-ADP
+u_height: 0
+is_full_depth: false
+airflow: passive
+comments: |
+  [Arista CCS-710P Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-710P-Datasheet.pdf)
+
+  External 150W AC power adapter for CCS-710P switches.
+power-ports:
+  - name: AC Input
+    type: iec-60320-c14
+power-outlets:
+  - name: DC Output
+    type: other
+    power_port: AC Input
+    description: 54V DC, 150W maximum; six-pin connector for CCS-710P switches.
