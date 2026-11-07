@@ -1,0 +1,7 @@
+---
+manufacturer: Arista
+model: FAN-7022HQ-RED
+part_number: FAN-7022HQ-RED
+airflow: front-to-rear
+comments: '[Arista 7280R4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R4-Series-Datasheet.pdf)'
+profile: Fan
