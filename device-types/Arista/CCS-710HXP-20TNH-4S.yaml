@@ -9,6 +9,7 @@ weight_unit: kg
 is_full_depth: false
 airflow: passive
 comments: '[Arista CCS-710HXP Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-710HXP-Datasheet.pdf)'
+front_image: true
 power-ports:
   - name: PSU 0
     type: dc-terminal
@@ -19,6 +20,8 @@ power-ports:
 console-ports:
   - name: Console
     type: rj-45
+  - name: USB
+    type: usb-a
 interfaces:
   - name: Ethernet1
     type: 1000base-t
@@ -111,4 +114,3 @@ interfaces:
   - name: Management1
     type: 1000base-t
     mgmt_only: true
-front_image: true
