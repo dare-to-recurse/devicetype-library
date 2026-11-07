@@ -1,0 +1,62 @@
+---
+manufacturer: Arista
+model: CCS-755-100-BND
+slug: arista-ccs-755-100-bnd
+part_number: CCS-755-100-BND
+u_height: 7
+is_full_depth: false
+airflow: front-to-rear
+weight: 24.8
+weight_unit: kg
+comments: |
+  [Arista 750X Series Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-750-Series-Datasheet.pdf)
+
+  Weight is for the empty chassis. Fan modules are installed in the two rear switch cards.
+
+  Bundle includes one switch card and one SUP100; modules are installed separately in NetBox.
+
+
+module-bays:
+  - name: Slot 1
+    label: Supervisor
+    position: '1'
+  - name: Slot 2
+    label: Supervisor
+    position: '2'
+  - name: Slot 3
+    label: Line Card
+    position: '3'
+  - name: Slot 4
+    label: Line Card
+    position: '4'
+  - name: Slot 5
+    label: Line Card
+    position: '5'
+  - name: Slot 6
+    label: Line Card
+    position: '6'
+  - name: Slot 7
+    label: Line Card
+    position: '7'
+  - name: PSU 1
+    label: Power Supply 1
+    position: '1'
+  - name: PSU 2
+    label: Power Supply 2
+    position: '2'
+  - name: PSU 3
+    label: Power Supply 3
+    position: '3'
+  - name: PSU 4
+    label: Power Supply 4
+    position: '4'
+  - name: PSU 5
+    label: Power Supply 5
+    position: '5'
+  - name: PSU 6
+    label: Power Supply 6
+    position: '6'
+  - name: Switch Card 1
+    position: '1'
+  - name: Switch Card 2
+    position: '2'
