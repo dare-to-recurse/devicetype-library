@@ -1,0 +1,24 @@
+---
+manufacturer: Arista
+model: DCS-7816-SUP1S
+part_number: DCS-7816-SUP1S
+comments: |
+  [Arista 7800R3 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7800R3-Data-Sheet.pdf)
+
+  64 GB RAM with SSD storage. Secure boot enabled.
+weight: 2.9
+weight_unit: kg
+console-ports:
+  - name: Console {module}
+    type: rj-45
+  - name: USB{module}/1
+    type: usb-a
+  - name: USB{module}/2
+    type: usb-a
+interfaces:
+  - name: Management{module}/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Management{module}/2
+    type: 1000base-x-sfp
+    mgmt_only: true
