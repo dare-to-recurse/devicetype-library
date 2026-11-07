@@ -4,25 +4,33 @@ model: CCS-720XP-96ZC2-F
 slug: arista-ccs-720xp-96zc2-f
 part_number: CCS-720XP-96ZC2#
 u_height: 2
-weight: 31
-weight_unit: lb
+weight: 14.1
+weight_unit: kg
 airflow: front-to-rear
 is_full_depth: false
-comments: '[Arista CCS 720XP Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-720XP-Datasheet.pdf)'
+comments: '[Arista CCS-720XP Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/CCS-720XP-Datasheet.pdf)'
+front_image: true
+rear_image: true
 console-ports:
   - name: Console
     type: rj-45
+  - name: USB
+    type: usb-a
 module-bays:
-  - name: PS1
-    position: '0'
-  - name: PS2
+  - name: Power Supply 1
     position: '1'
-  - name: PS3
+  - name: Power Supply 2
     position: '2'
-  - name: PS4
+  - name: Power Supply 3
     position: '3'
-front_image: true
-rear_image: true
+  - name: Power Supply 4
+    position: '4'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
 interfaces:
   - name: Management1
     type: 1000base-t
