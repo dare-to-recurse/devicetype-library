@@ -1,0 +1,172 @@
+---
+manufacturer: Arista
+model: DCS-7060XE7-64PRS-F
+slug: arista-dcs-7060xe7-64prs-f
+part_number: DCS-7060XE7-64PRS-F
+u_height: 4
+is_full_depth: true
+weight: 39
+weight_unit: kg
+airflow: front-to-rear
+comments: |
+  [Arista 7060XE7 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7060XE7-Datasheet.pdf)
+
+  The two RJ45 management ports and console/USB ports are provided by the replaceable DCS-7004-SUP-L supervisor complex.
+module-bays:
+  - name: Supervisor
+    position: '1'
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Power Supply 3
+    position: '3'
+  - name: Power Supply 4
+    position: '4'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'
+  - name: Fan 5
+    position: '5'
+  - name: Fan 6
+    position: '6'
+  - name: Fan 7
+    position: '7'
+  - name: Fan 8
+    position: '8'
+interfaces:
+  - name: Ethernet1/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet2/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet3/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet4/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet5/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet6/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet7/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet8/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet9/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet10/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet11/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet12/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet13/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet14/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet15/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet16/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet17/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet18/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet19/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet20/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet21/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet22/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet23/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet24/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet25/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet26/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet27/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet28/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet29/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet30/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet31/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet32/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet33/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet34/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet35/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet36/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet37/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet38/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet39/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet40/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet41/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet42/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet43/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet44/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet45/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet46/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet47/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet48/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet49/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet50/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet51/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet52/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet53/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet54/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet55/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet56/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet57/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet58/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet59/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet60/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet61/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet62/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet63/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet64/1
+    type: 1.6tbase-x-osfp1600-rhs
+  - name: Ethernet65/1
+    type: 100gbase-x-qsfp28
