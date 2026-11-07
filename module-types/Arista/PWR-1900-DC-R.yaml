@@ -2,7 +2,8 @@
 manufacturer: Arista
 model: PWR-1900-DC-R
 part_number: PWR-1900-DC-R
-# airflow: rear-to-front
+airflow: rear-to-front
+comments: '[Arista 7368X4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7368X4-Datasheet.pdf)'
 power-ports:
   - name: '{module}'
     type: dc-terminal
