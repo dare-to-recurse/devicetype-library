@@ -1,0 +1,447 @@
+---
+manufacturer: Arista
+model: DCS-DS-7720R4-128PE-F
+slug: arista-dcs-ds-7720r4-128pe-f
+part_number: DCS-DS-7720R4-128PE-F
+u_height: 7
+is_full_depth: true
+airflow: front-to-rear
+weight: 50
+weight_unit: kg
+comments: |
+  [Arista 7700R4-Distributed-Etherlink-Switch Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7700R4-Distributed-Etherlink-Switch-Datasheet.pdf)
+
+  [Arista 7700R4 Installation Guide](https://www.arista.com/en/qsg-7700r4-series/7700r4-series-front-panel)
+
+  Distributed spine with 128 fabric ports and two fixed copper management ports.
+module-bays:
+  - name: Power Supply 1
+    position: '1'
+  - name: Power Supply 2
+    position: '2'
+  - name: Power Supply 3
+    position: '3'
+  - name: Power Supply 4
+    position: '4'
+  - name: Fan 1
+    position: '1'
+  - name: Fan 2
+    position: '2'
+  - name: Fan 3
+    position: '3'
+  - name: Fan 4
+    position: '4'
+  - name: Fan 5
+    position: '5'
+  - name: Fan 6
+    position: '6'
+  - name: Fan 7
+    position: '7'
+  - name: Fan 8
+    position: '8'
+  - name: Fan 9
+    position: '9'
+  - name: Fan 10
+    position: '10'
+  - name: Fan 11
+    position: '11'
+  - name: Fan 12
+    position: '12'
+  - name: Supervisor
+    position: '1'
+console-ports:
+  - name: Console
+    type: rj-45
+  - name: USB
+    type: usb-a
+interfaces:
+  - name: Ethernet1/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet2/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet3/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet4/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet5/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet6/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet7/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet8/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet9/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet10/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet11/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet12/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet13/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet14/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet15/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet16/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet17/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet18/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet19/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet20/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet21/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet22/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet23/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet24/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet25/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet26/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet27/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet28/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet29/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet30/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet31/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet32/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet33/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet34/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet35/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet36/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet37/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet38/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet39/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet40/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet41/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet42/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet43/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet44/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet45/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet46/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet47/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet48/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet49/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet50/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet51/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet52/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet53/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet54/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet55/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet56/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet57/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet58/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet59/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet60/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet61/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet62/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet63/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet64/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet65/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet66/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet67/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet68/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet69/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet70/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet71/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet72/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet73/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet74/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet75/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet76/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet77/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet78/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet79/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet80/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet81/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet82/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet83/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet84/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet85/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet86/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet87/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet88/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet89/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet90/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet91/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet92/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet93/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet94/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet95/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet96/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet97/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet98/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet99/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet100/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet101/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet102/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet103/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet104/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet105/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet106/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet107/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet108/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet109/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet110/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet111/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet112/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet113/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet114/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet115/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet116/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet117/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet118/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet119/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet120/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet121/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet122/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet123/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet124/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet125/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet126/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet127/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Ethernet128/1
+    type: 800gbase-x-osfp
+    label: Fabric
+  - name: Management1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Management2
+    type: 1000base-t
+    mgmt_only: true
