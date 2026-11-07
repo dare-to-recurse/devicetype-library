@@ -1,0 +1,9 @@
+---
+manufacturer: Arista
+model: DCS-7001-SUP-L
+part_number: DCS-7001-SUP-L
+airflow: front-to-rear
+comments: |
+  [Arista 7280R4 Data Sheet](https://www.arista.com/assets/data/pdf/Datasheets/7280R4-Series-Datasheet.pdf)
+
+  Field-replaceable supervisor with an 8-core/16-thread 3.3 GHz CPU, 64 GB RAM and 480 GB NVMe storage. Accessible behind the fan trays.
